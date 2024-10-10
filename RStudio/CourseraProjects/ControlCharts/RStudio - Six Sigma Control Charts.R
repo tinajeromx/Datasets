@@ -12,7 +12,6 @@ library(data.table); library(nortest); rm(check)
 # Import Control Chart Constants (d2,d3,c4,A2,D3,D4,B3,B4)
 ccc = fread("http://pastebin.com/raw/qu2Z56Fa")
 
-# Control Chart formulae at https://ibb.co/7VFNJ9K, alternatively - https://pasteboard.co/JCU5NJj.jpg
 
 # I-MR Chart for I (input: time ordered vector)
 XMRChartX <- function(x, label = "x"){
